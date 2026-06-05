@@ -7,7 +7,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 import { useThemeMode } from "../context/ThemeContext";
 import { useAuth } from "../context/AuthContext";
-import LanguageSwitcher from "../components/LanguageSwitcher";
+import LanguageSwitcher from "../components/common/LanguageSwitcher";
 
 import Welcome from "../screens/Authentication/Welcome";
 import Login from "../screens/Authentication/Login";

@@ -15,7 +15,7 @@ import { useTranslation } from "react-i18next";
 import { useAuth } from "../../context/AuthContext";
 import { getUser, updateUser } from "../../services/authService";
 import { ProfileField } from "../../components/common/ProfileField";
-import { SectionHeader } from "../../components/common/ProfileField";
+import { SectionHeader } from "../../components/common/SectionHeader";
 import { Avatar } from "../../components/common/Avatar";
 
 export default function Profile() {
