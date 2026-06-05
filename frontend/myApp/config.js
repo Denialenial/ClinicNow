@@ -1,1 +1,1 @@
-export const API_BASE_URL = "http://10.11.2.223:8080/api";
+export const API_BASE_URL = "https://clinicnow.onrender.com/api";
