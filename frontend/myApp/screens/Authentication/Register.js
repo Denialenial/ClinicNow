@@ -444,7 +444,7 @@ function Register({ navigation }) {
               placeholder: t('auth.password'),
               value: form.password,
               onChangeText: (value) => updateField("password", value),
-              secureTextEntry: !showPassword,
+              //secureTextEntry: !showPassword,
               rightIcon: (
                 <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
                   <Ionicons
@@ -461,7 +461,7 @@ function Register({ navigation }) {
               placeholder: t('auth.confirmPassword'),
               value: form.confirmPassword,
               onChangeText: (value) => updateField("confirmPassword", value),
-              secureTextEntry: !showConfirmPassword,
+              //secureTextEntry: !showConfirmPassword,
               rightIcon: (
                 <TouchableOpacity onPress={() => setShowConfirmPassword(!showConfirmPassword)}>
                   <Ionicons

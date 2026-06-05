@@ -196,7 +196,7 @@ function Login({ navigation }) {
               placeholder: t('auth.password'),
               value: password,
               onChangeText: setPassword,
-              secureTextEntry: !showPassword,
+              //secureTextEntry: !showPassword,
               rightIcon: (
                 <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
                   <Ionicons
